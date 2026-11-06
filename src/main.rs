@@ -623,7 +623,8 @@ fn main() {
     let mut groups: Vec<Grupo> = Vec::new();
 
     loop {
-        let cmd = read_input("\nComando:");
+        println!("\n(use 'help' para ver a lista de comandos)");
+        let cmd = read_input("Comando:");
         menu(&cmd, &mut diretorios, &mut users, &mut groups);
     }
 
