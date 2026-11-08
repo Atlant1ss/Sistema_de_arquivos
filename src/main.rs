@@ -1,3 +1,4 @@
+//Autores: João Gustavo Bezerra e Marlon Zanelato Filho 
 use std::io::stdin;
 
 struct Arquivo {
